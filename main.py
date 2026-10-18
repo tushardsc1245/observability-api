@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import Response
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
-EMAIL = "your_email@example.com"   # <-- change this
+EMAIL = "25f1002656@ds.study.iitm.ac.in"   # <-- change this
 
 app = FastAPI()
 START = time.time()
